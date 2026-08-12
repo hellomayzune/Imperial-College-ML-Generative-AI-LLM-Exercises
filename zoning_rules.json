@@ -1,0 +1,38 @@
+{
+    "ROH_21_3_70_1": {
+        "title": "Accessory Dwelling Unit Rear Yard Setback",
+        "code_source": "Revised Ordinances of Honolulu \u00a721-3.70-1",
+        "category": "ZONING",
+        "rule_type": "MINIMUM_VALUE",
+        "target_field": "rear_setback_ft",
+        "threshold": 10.0,
+        "unit": "ft"
+    },
+    "ROH_21_3_70_2": {
+        "title": "ADU Maximum Height Limit",
+        "code_source": "Revised Ordinances of Honolulu \u00a721-3.70-2",
+        "category": "ZONING",
+        "rule_type": "MAXIMUM_VALUE",
+        "target_field": "building_height_ft",
+        "threshold": 15.0,
+        "unit": "ft"
+    },
+    "IRC_R310_2_1": {
+        "title": "Emergency Escape Egress Window Area",
+        "code_source": "2021 International Residential Code (IRC) \u00a7R310.2.1",
+        "category": "BUILDING_SAFETY",
+        "rule_type": "MINIMUM_VALUE",
+        "target_field": "bedroom_1_egress_area_sqft",
+        "threshold": 5.7,
+        "unit": "sq ft"
+    },
+    "IRC_R314_3": {
+        "title": "Smoke Alarm Hallway Presence",
+        "code_source": "2021 International Residential Code (IRC) \u00a7R314.3",
+        "category": "BUILDING_SAFETY",
+        "rule_type": "BOOLEAN_TRUE",
+        "target_field": "hallway_smoke_alarm_present",
+        "threshold": true,
+        "unit": "boolean"
+    }
+}
